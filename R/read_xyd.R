@@ -1,4 +1,5 @@
 read_xyd <- function(file_path) {
+  options(dplyr.summarise.inform = FALSE )
   # Read the file
   file_content <- readLines(file_path)
   
